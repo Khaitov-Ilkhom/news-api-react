@@ -1,15 +1,9 @@
-import "./NotFound.css"
-import {useNavigate} from "react-router-dom";
-import {useEffect} from "react";
+import "./NotFounf.css"
 
 const NotFound = () => {
-    const navigate = useNavigate()
-    useEffect(() => {
-        navigate("/notFound")
-    }, []);
-    return (
-        <div className="error">
-        </div>
-    )
+  return (
+    <div className="not_found"></div>
+  )
 }
+
 export default NotFound
