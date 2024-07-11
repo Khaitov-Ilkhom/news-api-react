@@ -1,0 +1,8 @@
+.error {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../../images/404-error-page1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
